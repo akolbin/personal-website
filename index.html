@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Kolbin - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <a href="#home">Portfolio</a>
+      </div>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#home" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#projects" class="nav-link">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="#skills" class="nav-link">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+
+    <div class="hero-content">
+      <h1 class="hero-title">Hello, I'm <span class="highlight">Alex Kolbin</span></h1>
+      <p class="hero-subtitle">DevOps & Cloud Engineer</p>
+      <p class="hero-description">
+        I create scalable and reliabile solutions in the cloud.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I'm a passionate developer with a love for creating infrastructure and automation in the cloud.
+            I take great care in delivering results and ensuring the solutions I build are scalable and reliable.
+            I enjoy tackling complex challenges and turning ideas into reality.
+          </p>
+          <p>
+            When I'm not coding, I enjoy exploring new locations with my wife and spending time with friends and family.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <h3>5+</h3>
+              <p>Years Experience</p>
+            </div>
+            <div class="stat">
+              <h3>9</h3>
+              <p>Certifications</p>
+            </div>
+            <div class="stat">
+              <h3>L5</h3>
+              <p>DevOps Engineer, AWS</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="headshot.jpeg" alt="Alex Kolbin">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-content">
+            <h3>Amazon Connect Web Application</h3>
+            <p>A multi-region serverless web application to help manage Amazon Connect Configurations.</p>
+            <div class="project-tech">
+              <span class="tech-tag">CloudFront</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">DynamoDB</span>
+              <span class="tech-tag">API Gateway</span>
+              <span class="tech-tag">Lambda</span>
+              <span class="tech-tag">Terraform</span>
+              <span class="tech-tag">Jenkins</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-content">
+            <h3>Cloud DMZ to inspect network traffic</h3>
+            <p>A solution to inspect all VPC traffic across the enterprise using Palo Alto Next-Generation Firewalls.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Terraform</span>
+              <span class="tech-tag">VPC</span>
+              <span class="tech-tag">Transit Gateway</span>
+              <span class="tech-tag">GitHub Actions</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-content">
+            <h3>Automated AWS Resource Cleanup</h3>
+            <p>Automation to clean up unused or overprovisioned AWS resources, achieving $50,000 monthly savings across
+              100+ accounts.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Golang</span>
+              <span class="tech-tag">AWS SDK</span>
+              <span class="tech-tag">Lambda</span>
+              <span class="tech-tag">Step Functions</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">Skills & Technologies</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Automation</h3>
+          <div class="skill-items">
+            <span class="skill-item">GitHub Actions</span>
+            <span class="skill-item">Jenkins</span>
+            <span class="skill-item">Terraform</span>
+            <span class="skill-item">CDK</span>
+            <span class="skill-item">Ansible</span>
+            <span class="skill-item">Docker</span>
+            <span class="skill-item">Kubernetes</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Languages</h3>
+          <div class="skill-items">
+            <span class="skill-item">Python</span>
+            <span class="skill-item">Golang</span>
+            <span class="skill-item">Java</span>
+            <span class="skill-item">Javascript</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>AWS Services</h3>
+          <div class="skill-items">
+            <span class="skill-item">Lambda</span>
+            <span class="skill-item">IAM</span>
+            <span class="skill-item">EC2</span>
+            <span class="skill-item">S3</span>
+            <span class="skill-item">Organizations</span>
+            <span class="skill-item">DynamoDB</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Tools & Others</h3>
+          <div class="skill-items">
+            <span class="skill-item">Git</span>
+            <span class="skill-item">Docker</span>
+            <span class="skill-item">AWS</span>
+            <span class="skill-item">CI/CD</span>
+            <span class="skill-item">Agile</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Section -->
+  <section id="interactive" class="interactive">
+    <div class="container">
+      <h2 class="section-title">Just for Fun</h2>
+      <div class="interactive-content">
+        <div class="click-counter-widget">
+          <h3>Global Click Counter</h3>
+          <p>A real-time counter shared by all visitors</p>
+          <div class="gif-container">
+            <img id="catGif" src="oia-uia-still.gif" alt="Spinning Cat" class="cat-gif">
+          </div>
+          <div class="counter-display">
+            <span id="clickCounter">Loading...</span>
+            <span class="counter-label">total clicks</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Let's Connect</h3>
+          <p>I'm always interested in new opportunities and collaborations. Feel free to reach out!</p>
+          <div class="contact-methods">
+            <div class="contact-method">
+              <strong>Email:</strong>
+              <a href="mailto:kolbin.alex@gmail.com">kolbin.alex@gmail.com</a>
+            </div>
+            <div class="contact-method">
+              <strong>LinkedIn:</strong>
+              <a href="https://www.linkedin.com/in/alex-kolbin/" target="_blank">linkedin.com/in/alex-kolbin</a>
+            </div>
+            <div class="contact-method">
+              <strong>GitHub:</strong>
+              <a href="https://github.com/akolbin" target="_blank">github.com/akolbin</a>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Your email" required>
+          </div>
+          <div class="form-group">
+            <textarea name="message" placeholder="Your message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Alex Kolbin. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Firebase SDK -->
+  <script type="module">
+    import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
+    import { getFirestore, doc, onSnapshot, runTransaction } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
+
+    // Your Firebase config (replace with your actual config)
+    const firebaseConfig = {
+      apiKey: "AIzaSyD3R5lh4b2tm3VN6kJnCqvc5rsp80pzXKU",
+      authDomain: "oiia-click-counter.firebaseapp.com",
+      projectId: "oiia-click-counter",
+      storageBucket: "oiia-click-counter.firebasestorage.app",
+      messagingSenderId: "1025839091349",
+      appId: "1:1025839091349:web:d3860bbc09af9086dcd59c"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+
+    // Make Firebase available globally
+    window.firebaseDB = db;
+    window.firebaseDoc = doc;
+    window.firebaseOnSnapshot = onSnapshot;
+    window.firebaseRunTransaction = runTransaction;
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
