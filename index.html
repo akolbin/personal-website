@@ -15,7 +15,7 @@
   <nav class="navbar">
     <div class="nav-container">
       <div class="nav-logo">
-        <a href="#home">Portfolio</a>
+        <a href="#home">Alex Kolbin</a>
       </div>
       <ul class="nav-menu">
         <li class="nav-item">
@@ -97,7 +97,10 @@
   <!-- Projects Section -->
   <section id="projects" class="projects">
     <div class="container">
-      <h2 class="section-title">Featured Projects</h2>
+      <h2 class="section-title">Projects</h2>
+      
+      <!-- Professional Projects -->
+      <h3 class="subsection-title professional-projects">Professional Projects</h3>
       <div class="projects-grid">
         <div class="project-card">
           <div class="project-content">
@@ -139,6 +142,64 @@
               <span class="tech-tag">AWS SDK</span>
               <span class="tech-tag">Lambda</span>
               <span class="tech-tag">Step Functions</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Personal Projects -->
+      <h3 class="subsection-title personal-projects">Personal Projects</h3>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-content">
+            <h3>This Website</h3>
+            <p>Statically hosted personal website.</p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML/CSS</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">S3</span>
+              <span class="tech-tag">CloudFront</span>
+              <span class="tech-tag">Route53</span>
+              <span class="tech-tag">Firebase</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/akolbin/personal-website" target="_blank" class="project-link">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-content">
+            <h3>MLOps Pipeline</h3>
+            <p>End-to-end MLOps pipeline showcasing model training with synthetic data, deployment, and endpoint creation.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">SageMaker</span>
+              <span class="tech-tag">MLflow</span>
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">GitHub Actions</span>
+              <span class="tech-tag">Terraform</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/akolbin/MLOps" target="_blank" class="project-link">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-content">
+            <h3>EKS Monitoring Stack</h3>
+            <p>Production-ready monitoring and observability stack for Amazon EKS using Prometheus, Grafana, and Fluent Bit with automated CI/CD deployment.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Kubernetes</span>
+              <span class="tech-tag">Prometheus</span>
+              <span class="tech-tag">Grafana</span>
+              <span class="tech-tag">Helm</span>
+              <span class="tech-tag">Terraform</span>
+              <span class="tech-tag">GitHub Actions</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/akolbin/eks-monitoring" target="_blank" class="project-link">GitHub</a>
             </div>
           </div>
         </div>
@@ -207,7 +268,7 @@
           <h3>Global Click Counter</h3>
           <p>A real-time counter shared by all visitors</p>
           <div class="gif-container">
-            <img id="catGif" src="oia-uia-still.gif" alt="Spinning Cat" class="cat-gif">
+            <img id="catGif" src="oia-uia.gif" alt="Spinning Cat" class="cat-gif">
           </div>
           <div class="counter-display">
             <span id="clickCounter">Loading...</span>
