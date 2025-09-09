@@ -42,7 +42,7 @@ body {
 .nav-logo a {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #4f46e5;
+    color: #1e40af;
     text-decoration: none;
 }
 
@@ -64,7 +64,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #4f46e5;
+    color: #1e40af;
 }
 
 .hamburger {
@@ -170,12 +170,12 @@ body {
 }
 
 .btn-primary {
-    background: #4f46e5;
+    background: #1e40af;
     color: white;
 }
 
 .btn-primary:hover {
-    background: #3730a3;
+    background: #1d4ed8;
     transform: translateY(-2px);
 }
 
@@ -187,7 +187,7 @@ body {
 
 .btn-secondary:hover {
     background: white;
-    color: #4f46e5;
+    color: #1e40af;
 }
 
 /* Section Styles */
@@ -210,7 +210,7 @@ section {
     font-size: 1.8rem;
     font-weight: 600;
     margin-bottom: 2rem;
-    color: #4f46e5;
+    color: #1e40af;
     text-align: left;
 }
 
@@ -253,7 +253,7 @@ section {
 .stat h3 {
     font-size: 2rem;
     font-weight: 700;
-    color: #4f46e5;
+    color: #1e40af;
     margin-bottom: 0.5rem;
 }
 
@@ -330,8 +330,8 @@ section {
 }
 
 .tech-tag {
-    background: #e0e7ff;
-    color: #4f46e5;
+    background: #dbeafe;
+    color: #1e40af;
     padding: 0.25rem 0.75rem;
     border-radius: 20px;
     font-size: 0.8rem;
@@ -346,14 +346,14 @@ section {
 }
 
 .project-link {
-    color: #4f46e5;
+    color: #1e40af;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .project-link:hover {
-    color: #3730a3;
+    color: #1d4ed8;
 }
 
 /* Skills Section */
@@ -391,7 +391,7 @@ section {
 }
 
 .skill-item {
-    background: #4f46e5;
+    background: #1e40af;
     color: white;
     padding: 0.4rem 0.8rem;
     border-radius: 20px;
@@ -405,7 +405,7 @@ section {
 }
 
 .aws-toggle {
-    background: #4f46e5;
+    background: #1e40af;
     color: white;
     padding: 0.4rem 0.8rem;
     border-radius: 20px;
@@ -419,7 +419,7 @@ section {
 }
 
 .aws-toggle:hover {
-    background: #3730a3;
+    background: #1d4ed8;
 }
 
 .aws-services {
@@ -442,8 +442,8 @@ section {
 }
 
 .aws-service {
-    background: #e0e7ff;
-    color: #4f46e5;
+    background: #dbeafe;
+    color: #1e40af;
     padding: 0.25rem 0.5rem;
     border-radius: 12px;
     font-size: 0.75rem;
@@ -489,7 +489,7 @@ section {
 }
 
 .contact-method a {
-    color: #4f46e5;
+    color: #1e40af;
     text-decoration: none;
 }
 
@@ -521,7 +521,7 @@ section {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #4f46e5;
+    border-color: #1e40af;
 }
 
 .contact-form .btn {
