@@ -359,19 +359,22 @@ section {
 /* Skills Section */
 .skills {
     background: #f9fafb;
+    overflow: visible;
 }
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
+    overflow: visible;
 }
 
 .skill-category {
     background: white;
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    overflow: visible;
 }
 
 .skill-category h3 {
@@ -390,10 +393,63 @@ section {
 .skill-item {
     background: #4f46e5;
     color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 25px;
-    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
     font-weight: 500;
+}
+
+.aws-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.aws-toggle {
+    background: #4f46e5;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.aws-toggle:hover {
+    background: #3730a3;
+}
+
+.aws-services {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    margin-bottom: 5px;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 0.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    min-width: 200px;
+    display: none;
+}
+
+.aws-services.show {
+    display: block;
+}
+
+.aws-service {
+    background: #e0e7ff;
+    color: #4f46e5;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin: 0.2rem;
+    display: inline-block;
 }
 
 /* Contact Section */

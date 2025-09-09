@@ -231,3 +231,19 @@ class ClickCounter {
 document.addEventListener('DOMContentLoaded', () => {
     new ClickCounter();
 });
+
+// AWS Services dropdown toggle
+function toggleAWS() {
+    const dropdown = document.getElementById('awsServices');
+    dropdown.classList.toggle('show');
+}
+
+// Close dropdown when clicking outside
+document.addEventListener('click', function(event) {
+    const dropdown = document.getElementById('awsServices');
+    const toggle = document.querySelector('.aws-toggle');
+    
+    if (dropdown && !toggle.contains(event.target) && !dropdown.contains(event.target)) {
+        dropdown.classList.remove('show');
+    }
+});
